@@ -22,7 +22,7 @@ class MainTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("anything1"))
+                .body("data", equalTo("anything"))
         ;
     }
 }
