@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MainTest {
 
     @Test
-    void main() {
+    void main1() {
         // Given - When - Then
 // Предусловия
         given()
@@ -22,7 +22,7 @@ class MainTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("anything"))
+                .body("data", equalTo("anything1"))
         ;
     }
 }
